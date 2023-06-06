@@ -1,0 +1,232 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000;
+}
+.logo{
+    margin-left: 30px;
+    position: fixed;
+    font-size: 30px;
+    top: 8px;
+    left: 0;
+    color: #fff;
+}
+
+
+/* .line{
+    position: fixed;
+    background-color: #ffa500;
+    width: 9%;
+    height: 2px;
+    top: 40px;
+    left: 28px;
+} */
+.menu{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+   gap: 30px;
+   font-size: 20px;
+   margin-right: 60px;
+   position: fixed;
+   float: right;
+   top: 35px;
+   right: 0;
+}
+.menu a{
+    list-style: none;
+    text-decoration: none;
+    border-radius: 10%;
+    color: #fff;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+.menu a:hover{
+    color: #ffa500;
+}
+.dev img{
+    position: relative;
+    height: 400px;
+    width: 600px;
+    border-radius: 50px;
+    opacity: 0.3;
+    float: right;
+    margin: 30px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+} 
+.philip{
+    display: flex;
+   margin-left:90px ;
+   margin-top: 180px;
+   font-size: 40px;
+   color: #fff;
+}
+
+.mwesh{
+    display: inline-block; 
+    margin-left:250px ;
+    margin-top: 100;
+    font-size: 40px;
+    color: #ffa500;
+}
+.right{
+    color: #ffa500;
+    font-size: 100px;
+    position: absolute; 
+    top: 170px;
+    left: 20px;
+}
+
+.left{
+    color: #fff;
+    font-size: 90px;
+    position: absolute;
+    top: 270px;
+    left: 600px;
+}
+
+
+
+.web{
+    color: gray;
+    margin-left: 200px;
+    font-size: 20px;
+    position: relative;
+}
+.me{
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 15px;
+    position: absolute;
+    color: #fff;
+}
+.calib1{
+    color: #ffa500;
+    font-size: 30px;
+    
+}
+.calib2{
+    color: #ffa500;
+    font-size: 30px;
+}
+
+.menu .ABOUT-ME{
+    color: #ffa500;
+}
+
+/* styling the About page */
+
+
+.about{
+    color: #ffa500;
+    margin-top: 70px;
+    margin-left: 510px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.about1{
+    color: gray;
+    opacity: 0.2;
+    font-size: 80px;
+    position: absolute;
+    top: 50px;
+    left: 445px;
+}
+.image img{
+    height: 200px;
+    width: 500px;
+    border-radius:50px;
+    margin-left: 380px;
+    margin-top: 10px;
+    
+}
+.about-me{
+    margin-left: 380px;
+    margin-top: 40px;
+    color: #fff;
+}
+/*styling project page */
+.port{
+    color: #ffa500;
+    justify-content: center;
+    align-items: center;
+    margin-left: 550px;
+    margin-top: 30px;
+    position: fixed;
+    top: 40px;
+}
+
+
+
+.project-pics{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin-top: 120px;
+    gap: 30px;
+    padding: 20px;
+    
+    
+}
+.pic{
+    height: 300px;
+    width: 700px;
+}
+.explain{
+    color: #fff;
+    margin-left: 500px;
+    margin-top: 30px;
+    position: fixed;
+}
+/* styling the service and contact page*/
+.services-card{
+    background-color: grey;
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 150px;
+    margin-left: 150px;
+    
+    
+}
+.service-page{
+    margin-left: 90px;
+    color: #ffa500;
+    font-size: xx-large;
+    margin-top: 30px;
+    
+}
+ .development-icon{
+    height: 70px;
+    width: 90px;
+    margin-top: 10px;
+    margin-left: 95px;
+ }
+ .skills{
+    font-weight: bolder;
+    margin-left: 80px;
+    margin-top: 30px;
+ }
+ .developer-details{
+    margin-top: 20px;
+    padding: 10px;
+ }
+
+ .card2{
+    background-color: white;
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 150px;
+    margin-left: 250px;
+   
+}
+
+
